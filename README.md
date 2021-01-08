@@ -20,7 +20,7 @@ Add to `.repo/local_manifests/tre3calteskt.xml`:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/samsung/tre3calteskt" name="android_device_samsung_tre3calteskt" remote="ananjaser1211" revision="twrp-7.1_tre3calteskt" />
+	<project name="universal5433/android_device_samsung_tre3calteskt" path="device/samsung/tre3calteskt" remote="github" revision="android-7.1" />
 </manifest>
 ```
 
@@ -34,4 +34,4 @@ lunch omni_tre3calteskt-eng
 make -j5 recoveryimage
 ```
 
-Kernel sources are available at: https://github.com/ananjaser1211/RefinedNougat
+Kernel source: https://github.com/ananjaser1211/RefinedNougat
